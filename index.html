@@ -78,7 +78,7 @@
             </div>
             <div class="hero__image" data-aos="fade-left" data-aos-delay="200">
                 <div class="hero__image-wrapper">
-                    <img src="images/camila-professional.png" alt="Camila Brito - Lash Designer Profissional">
+                    <img class="responsive-img" src="images/camila-professional.png" alt="Camila Brito - Lash Designer Profissional" width="800" height="1000" loading="lazy" data-fallback="placeholder-hero" onerror="handleImgError(this)">
                     <div class="hero__badge">
                         <i class="fas fa-certificate"></i>
                         <span>Certificação Internacional</span>
@@ -103,7 +103,7 @@
             </div>
             <div class="sobre__container">
                 <div class="sobre__image" data-aos="fade-right">
-                    <img src="images/camila-professional.png" alt="Camila Brito na Interlash Conference">
+                    <img class="responsive-img" src="images/camila-professional.png" alt="Camila Brito na Interlash Conference" width="800" height="1000" loading="lazy" data-fallback="placeholder-sobre" onerror="handleImgError(this)">
                     <div class="sobre__experience">
                         <span class="experience__number">8+</span>
                         <span class="experience__text">Anos de Expertise</span>
@@ -271,7 +271,7 @@
             <div class="cursos__container">
                 <div class="curso__destaque" data-aos="fade-right">
                     <div class="curso__image">
-                        <img src="images/curso-tendencias.png" alt="Curso Tendências em Vitória">
+                        <img class="responsive-img" src="images/curso-tendencias.png" alt="Curso Tendências em Vitória" width="800" height="1200" loading="lazy" data-fallback="placeholder-curso" onerror="handleImgError(this)">
                         <div class="curso__badge">
                             <i class="fas fa-award"></i>
                             <span>Certificado Internacional</span>
@@ -370,7 +370,7 @@
             <div class="galeria__grid">
                 <!-- As imagens serão adicionadas dinamicamente via JavaScript -->
                 <div class="galeria__item" data-category="fox" data-aos="zoom-in">
-                    <img src="images/curso-tendencias.png" alt="Extensão de Cílios - Efeito Fox">
+                    <img class="responsive-img" src="images/curso-tendencias.png" alt="Extensão de Cílios - Efeito Fox" width="600" height="600" loading="lazy" data-fallback="placeholder-galeria" onerror="handleImgError(this)">
                     <div class="galeria__overlay">
                         <h4>Efeito Fox</h4>
                         <p>Olhar alongado e marcante</p>
@@ -378,7 +378,7 @@
                     </div>
                 </div>
                 <div class="galeria__item" data-category="delineado" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="images/curso-tendencias.png" alt="Extensão de Cílios - Efeito Delineado">
+                    <img class="responsive-img" src="images/curso-tendencias.png" alt="Extensão de Cílios - Efeito Delineado" width="600" height="600" loading="lazy" data-fallback="placeholder-galeria" onerror="handleImgError(this)">
                     <div class="galeria__overlay">
                         <h4>Efeito Delineado</h4>
                         <p>Visual de delineador perfeito</p>
@@ -386,7 +386,7 @@
                     </div>
                 </div>
                 <div class="galeria__item" data-category="molhado" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="images/curso-tendencias.png" alt="Extensão de Cílios - Efeito Molhado">
+                    <img class="responsive-img" src="images/curso-tendencias.png" alt="Extensão de Cílios - Efeito Molhado" width="600" height="600" loading="lazy" data-fallback="placeholder-galeria" onerror="handleImgError(this)">
                     <div class="galeria__overlay">
                         <h4>Efeito Molhado</h4>
                         <p>Volume e brilho intensos</p>
@@ -649,5 +649,25 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
+    <script>
+        // Diagnóstico de imagens quebradas e fallback elegante
+        function handleImgError(img){
+            console.warn('[Imagem não carregou]', img.getAttribute('src'));
+            const fallbackType = img.dataset.fallback || 'placeholder';
+            img.classList.add('img-fallback');
+            // Placeholder gradiente inline
+            img.removeAttribute('src');
+            img.setAttribute('aria-hidden','true');
+            img.outerHTML = `<div class="img-placeholder ${fallbackType}" role="img" aria-label="Imagem em carregamento ou indisponível"></div>`;
+        }
+        // Log de verificação após load
+        window.addEventListener('load', () => {
+            document.querySelectorAll('img.responsive-img').forEach(im => {
+                if(!im.complete || im.naturalWidth === 0){
+                    console.warn('Imagem possivelmente ausente no servidor:', im.src);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
