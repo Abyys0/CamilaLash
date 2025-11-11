@@ -1,0 +1,196 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║   🌟 LANDING PAGE - CAMILA BRITO LASH DESIGNER 🌟            ║
+║                                                               ║
+║   Landing page profissional para extensão de cílios          ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+📋 INÍCIO RÁPIDO
+═══════════════════════════════════════════════════════════════
+
+1️⃣  ADICIONE AS IMAGENS
+   └─ Vá para a pasta "images/"
+   └─ Leia o arquivo "README.md" dentro da pasta
+   └─ Adicione as 6 imagens conforme instruções:
+      • camila-professional.jpg
+      • camila-interlash.jpg
+      • curso-tendencias.jpg
+      • trabalho1.jpg
+      • trabalho2.jpg
+      • trabalho3.jpg
+
+2️⃣  ATUALIZE O WHATSAPP
+   └─ Abra "index.html" em um editor de texto
+   └─ Pressione Ctrl+F e busque: 5527999999999
+   └─ Substitua pelo número real da Camila
+   └─ Faça o mesmo no arquivo "script.js"
+
+3️⃣  TESTE A PÁGINA
+   └─ Clique duas vezes em "index.html"
+   └─ Ou use Live Server no VS Code
+   └─ Teste todos os botões e links
+
+4️⃣  PUBLIQUE ONLINE (Opcional)
+   └─ Acesse: netlify.com ou vercel.com
+   └─ Arraste a pasta completa
+   └─ Obtenha o link público
+
+
+═══════════════════════════════════════════════════════════════
+🎨 RECURSOS DA PÁGINA
+═══════════════════════════════════════════════════════════════
+
+✅ Design profissional e elegante
+✅ Totalmente responsivo (funciona em celular)
+✅ Animações suaves ao rolar a página
+✅ Menu fixo no topo
+✅ Galeria de trabalhos com filtros
+✅ Formulário integrado com WhatsApp
+✅ Botão flutuante do WhatsApp
+✅ Seção de cursos detalhada
+✅ Depoimentos de clientes
+✅ Informações de contato
+
+
+═══════════════════════════════════════════════════════════════
+📱 SEÇÕES INCLUÍDAS
+═══════════════════════════════════════════════════════════════
+
+1. HERO - Apresentação impactante
+2. SOBRE - História e credenciais
+3. SERVIÇOS:
+   • Efeito Fox
+   • Efeito Delineado
+   • Efeito Molhado e Rímel
+   • Efeito Seta
+   • Análise Visagista
+   • Manutenção
+4. CURSOS - Aperfeiçoamento em Vitória
+5. GALERIA - Portfólio de trabalhos
+6. DEPOIMENTOS - Avaliações de clientes
+7. CONTATO - Formulário e informações
+
+
+═══════════════════════════════════════════════════════════════
+⚙️ PERSONALIZAÇÕES OPCIONAIS
+═══════════════════════════════════════════════════════════════
+
+📝 EDITAR TEXTOS
+   └─ Abra "index.html" em um editor
+   └─ Encontre o texto desejado
+   └─ Modifique diretamente
+
+🎨 MUDAR CORES
+   └─ Abra "styles.css"
+   └─ Procure por ":root" no início do arquivo
+   └─ Altere os códigos de cor
+
+🔗 ATUALIZAR LINKS SOCIAIS
+   └─ Abra "index.html"
+   └─ Busque por "instagram" ou "facebook"
+   └─ Atualize os links
+
+
+═══════════════════════════════════════════════════════════════
+📂 ESTRUTURA DE ARQUIVOS
+═══════════════════════════════════════════════════════════════
+
+Lading page Camila/
+├── index.html          ← Página principal
+├── styles.css          ← Estilos visuais
+├── script.js           ← Funcionalidades interativas
+├── README.md           ← Documentação completa
+├── INICIO-RAPIDO.txt   ← Este arquivo
+└── images/             ← Pasta de imagens
+    ├── README.md       ← Guia de imagens
+    └── (suas imagens aqui)
+
+
+═══════════════════════════════════════════════════════════════
+🚀 COMO VISUALIZAR
+═══════════════════════════════════════════════════════════════
+
+MÉTODO 1: Navegador Direto
+   1. Localize o arquivo "index.html"
+   2. Clique duas vezes nele
+   3. Abrirá no navegador padrão
+
+MÉTODO 2: Live Server (Melhor para editar)
+   1. Abra o VS Code
+   2. Instale extensão "Live Server"
+   3. Clique direito em index.html
+   4. Selecione "Open with Live Server"
+
+
+═══════════════════════════════════════════════════════════════
+💡 DICAS IMPORTANTES
+═══════════════════════════════════════════════════════════════
+
+⚠️  NÃO ESQUEÇA:
+   • Adicionar TODAS as imagens
+   • Atualizar o número do WhatsApp
+   • Testar no celular antes de publicar
+   • Verificar todos os links
+
+✨  PARA MELHOR RESULTADO:
+   • Use imagens de alta qualidade
+   • Comprima as imagens (TinyPNG.com)
+   • Tire fotos profissionais dos trabalhos
+   • Peça depoimentos reais de clientes
+
+
+═══════════════════════════════════════════════════════════════
+🆘 PRECISA DE AJUDA?
+═══════════════════════════════════════════════════════════════
+
+1. Leia o README.md completo
+2. Confira images/README.md para dúvidas sobre fotos
+3. Verifique os comentários no código HTML/CSS/JS
+
+
+═══════════════════════════════════════════════════════════════
+✅ CHECKLIST ANTES DE PUBLICAR
+═══════════════════════════════════════════════════════════════
+
+[ ] Todas as 6 imagens foram adicionadas
+[ ] Número do WhatsApp foi atualizado
+[ ] Links do Instagram estão corretos
+[ ] Testei a página no computador
+[ ] Testei a página no celular
+[ ] Todos os botões funcionam
+[ ] Galeria abre as imagens
+[ ] Menu mobile abre e fecha
+[ ] Formulário redireciona para WhatsApp
+
+
+═══════════════════════════════════════════════════════════════
+🌐 PUBLICAR ONLINE (GRÁTIS)
+═══════════════════════════════════════════════════════════════
+
+OPÇÃO 1: Netlify (Recomendado)
+   1. Acesse: www.netlify.com
+   2. Crie uma conta grátis
+   3. Arraste toda a pasta do projeto
+   4. Pronto! Link gerado automaticamente
+
+OPÇÃO 2: Vercel
+   1. Acesse: vercel.com
+   2. Crie conta grátis
+   3. Importe o projeto
+   4. Deploy automático
+
+OPÇÃO 3: GitHub Pages
+   1. Crie repositório no GitHub
+   2. Faça upload dos arquivos
+   3. Ative GitHub Pages nas configurações
+
+
+═══════════════════════════════════════════════════════════════
+
+🎉 PRONTO PARA USAR!
+
+Desenvolvido com 💛 para Camila Brito Lash Designer
+Instagram: @camilabritolash
+
+═══════════════════════════════════════════════════════════════
